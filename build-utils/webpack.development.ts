@@ -6,7 +6,7 @@ function developmentConfig(): Configuration {
   return {
     devtool: "source-map",
     devServer: {
-      port: 3000,
+      port: 4000,
       hot: true,
       open: true,
     },
